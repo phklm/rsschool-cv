@@ -1,0 +1,23 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.name,
+.objective {
+  text-align: center;
+}
+
+.contacts ul {
+  list-style-type:none;
+}
+
+.photo img {
+  border-radius: 5%;
+}
